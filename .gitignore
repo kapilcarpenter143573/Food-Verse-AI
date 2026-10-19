@@ -1,0 +1,47 @@
+# ── Environment files – NEVER commit these ──────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Node / Frontend ──────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.cache/
+
+# ── Uploads ──────────────────────────────────────────────────────
+backend/uploads/
+
+# ── OS / IDE ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+logs/
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
